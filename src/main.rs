@@ -60,12 +60,12 @@ fn main() {
 
     // Create a car with that engine
     let car_one = Car {
-        engine: fuel_engine.clone(), // Remove the reference here
+        engine: fuel_engine.clone(), // using clone; alternatively you can try referencing
         color: String::from("red"),
     };
 
     let car_two = Car {
-        engine: fuel_engine.clone(), // Remove the reference here
+        engine: fuel_engine.clone(), // using clone; alternatively you can try referencing
         color: String::from("blue"),
     };
 
